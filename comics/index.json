@@ -1,0 +1,18 @@
+{
+ "comics": [
+  {
+   "id": "tonkatsu",
+   "title": "Ordering at a Tonkatsu Restaurant",
+   "titleJa": "とんかつ<ruby>屋<rt>や</rt></ruby>で <ruby>注文<rt>ちゅうもん</rt></ruby>",
+   "summary": "Walk into a tonkatsu shop, ask for a recommendation, order, eat and pay — five scenes of real restaurant Japanese with furigana, romaji and English.",
+   "level": "Beginner",
+   "tags": [
+    "restaurant",
+    "food",
+    "polite speech"
+   ],
+   "scenes": 5,
+   "panels": 25
+  }
+ ]
+}

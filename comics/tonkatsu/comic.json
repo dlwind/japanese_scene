@@ -1,0 +1,749 @@
+{
+ "id": "tonkatsu",
+ "title": "Ordering at a Tonkatsu Restaurant",
+ "titleJa": "とんかつ<ruby>屋<rt>や</rt></ruby>で <ruby>注文<rt>ちゅうもん</rt></ruby>",
+ "summary": "Walk into a tonkatsu shop, ask for a recommendation, order, eat and pay — five scenes of real restaurant Japanese with furigana, romaji and English.",
+ "level": "Beginner",
+ "tags": [
+  "restaurant",
+  "food",
+  "polite speech"
+ ],
+ "scenes": [
+  {
+   "n": 1,
+   "title": "お<ruby>店<rt>みせ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>る",
+   "subtitle": "Arriving",
+   "location": "とんかつ<ruby>屋<rt>や</rt></ruby> · Tonkatsu shop",
+   "caption": "Scene 1 · Arriving",
+   "panels": [
+    {
+     "n": 1,
+     "wide": false,
+     "bg": "#FFF1D6",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "いらっしゃいませ！<br/><ruby>何名様<rt>なんめいさま</rt></ruby>ですか。",
+      "romaji": "Irasshaimase! Nanmei-sama desu ka?",
+      "en": "Welcome! How many people?",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>"
+     }
+    },
+    {
+     "n": 2,
+     "wide": false,
+     "bg": "#FFF1D6",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "<ruby>二人<rt>ふたり</rt></ruby>です。",
+      "romaji": "Futari desu.",
+      "en": "Two people.",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M54 106 v-30 q0 -8 8 -8 h16 q8 0 8 8 v30 Z\" fill=\"#F7DCC2\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><rect fill=\"#F7DCC2\" height=\"52\" rx=\"6\" stroke=\"#1A1A1A\" stroke-width=\"3\" transform=\"rotate(-10 62 48)\" width=\"12\" x=\"56\" y=\"22\"></rect><rect fill=\"#F7DCC2\" height=\"52\" rx=\"6\" stroke=\"#1A1A1A\" stroke-width=\"3\" transform=\"rotate(10 78 48)\" width=\"12\" x=\"72\" y=\"22\"></rect><text fill=\"#1A1A1A\" font-size=\"26\" font-weight=\"900\" x=\"112\" y=\"40\">2</text></svg>"
+     }
+    },
+    {
+     "n": 3,
+     "wide": true,
+     "bg": "#FFF1D6",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "お<ruby>席<rt>せき</rt></ruby>へご<ruby>案内<rt>あんない</rt></ruby>します。<br/>こちらへどうぞ。",
+      "romaji": "O-seki e go-annai shimasu. Kochira e dōzo.",
+      "en": "I'll show you to your seat. This way, please.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M6 10 h128\" stroke=\"#5A3A22\" stroke-linecap=\"round\" stroke-width=\"6\"></path><g fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"><rect height=\"84\" width=\"38\" x=\"10\" y=\"14\"></rect><rect height=\"84\" width=\"38\" x=\"51\" y=\"14\"></rect><rect height=\"84\" width=\"38\" x=\"92\" y=\"14\"></rect></g><text fill=\"#FFFFFF\" font-size=\"24\" font-weight=\"900\" text-anchor=\"middle\" x=\"29\" y=\"66\">と</text><text fill=\"#FFFFFF\" font-size=\"24\" font-weight=\"900\" text-anchor=\"middle\" x=\"70\" y=\"66\">ん</text><text fill=\"#FFFFFF\" font-size=\"24\" font-weight=\"900\" text-anchor=\"middle\" x=\"111\" y=\"66\">か</text></svg>"
+     }
+    }
+   ],
+   "phrases": [
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>一人<rt>ひとり</rt></ruby>です。",
+     "romaji": "Hitori desu.",
+     "en": "Just one person."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>三人<rt>さんにん</rt></ruby>です。",
+     "romaji": "Sannin desu.",
+     "en": "Three people."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>予約<rt>よやく</rt></ruby>した<ruby>田中<rt>たなか</rt></ruby>です。",
+     "romaji": "Yoyaku shita Tanaka desu.",
+     "en": "I have a reservation under Tanaka."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>何分<rt>なんぷん</rt></ruby>ぐらい<ruby>待<rt>ま</rt></ruby>ちますか。",
+     "romaji": "Nanpun gurai machimasu ka?",
+     "en": "About how long is the wait?"
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "<ruby>少々<rt>しょうしょう</rt></ruby>お<ruby>待<rt>ま</rt></ruby>ちください。",
+     "romaji": "Shōshō omachi kudasai.",
+     "en": "Please wait a moment."
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "カウンター<ruby>席<rt>せき</rt></ruby>でもよろしいですか。",
+     "romaji": "Kauntā-seki demo yoroshii desu ka?",
+     "en": "Is the counter OK?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "テーブル<ruby>席<rt>せき</rt></ruby>がいいです。",
+     "romaji": "Tēburu-seki ga ii desu.",
+     "en": "I'd prefer a table."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "おすすめを <ruby>聞<rt>き</rt></ruby>く",
+   "subtitle": "Asking for a recommendation",
+   "location": "とんかつ<ruby>屋<rt>や</rt></ruby> · Tonkatsu shop",
+   "caption": "Scene 2 · Asking for a recommendation",
+   "panels": [
+    {
+     "n": 1,
+     "wide": false,
+     "bg": "#E6F2EE",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "すみません。<br/>おすすめは<ruby>何<rt>なん</rt></ruby>ですか。",
+      "romaji": "Sumimasen. Osusume wa nan desu ka?",
+      "en": "Excuse me. What do you recommend?",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#FFFDF7\" height=\"86\" rx=\"6\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"120\" x=\"10\" y=\"20\"></rect><path d=\"M70 20 v86\" stroke=\"#1A1A1A\" stroke-width=\"2\"></path><rect fill=\"#E8A33D\" height=\"26\" rx=\"4\" width=\"40\" x=\"20\" y=\"34\"></rect><path d=\"M20 72 h40 M20 84 h30 M80 36 h40 M80 50 h32 M80 64 h40 M80 78 h26\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path></svg>"
+     }
+    },
+    {
+     "n": 2,
+     "wide": false,
+     "bg": "#E6F2EE",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "ロースかつ<ruby>定食<rt>ていしょく</rt></ruby>が<br/><ruby>一番<rt>いちばん</rt></ruby><ruby>人気<rt>にんき</rt></ruby>です。",
+      "romaji": "Rōsu-katsu teishoku ga ichiban ninki desu.",
+      "en": "The pork loin cutlet set is the most popular.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#FFFDF7\" height=\"86\" rx=\"6\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"120\" x=\"10\" y=\"20\"></rect><path d=\"M70 20 v86\" stroke=\"#1A1A1A\" stroke-width=\"2\"></path><rect fill=\"#E8A33D\" height=\"26\" rx=\"4\" width=\"40\" x=\"20\" y=\"34\"></rect><path d=\"M20 72 h40 M20 84 h30 M80 36 h40 M80 50 h32 M80 64 h40 M80 78 h26\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path></svg>"
+     }
+    },
+    {
+     "n": 3,
+     "wide": false,
+     "bg": "#E6F2EE",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "ロースとヒレは<br/><ruby>何<rt>なに</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>いますか。",
+      "romaji": "Rōsu to hire wa nani ga chigaimasu ka?",
+      "en": "What's the difference between loin and fillet?",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"93\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"93\" fill=\"#1A1A1A\" r=\"4.5\"></circle><path d=\"M73 80 l14 3 M127 80 l-14 3\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M93 121 h14\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n<text fill=\"#1A1A1A\" font-size=\"34\" font-weight=\"900\" x=\"150\" y=\"58\">?</text>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><g stroke=\"#1A1A1A\" stroke-width=\"3\"><rect fill=\"#E8A33D\" height=\"42\" rx=\"13\" width=\"54\" x=\"6\" y=\"44\"></rect><rect fill=\"#F2C66D\" height=\"34\" rx=\"10\" width=\"54\" x=\"80\" y=\"48\"></rect></g><text fill=\"#1A1A1A\" font-size=\"22\" font-weight=\"900\" text-anchor=\"middle\" x=\"70\" y=\"72\">?</text></svg>"
+     }
+    },
+    {
+     "n": 4,
+     "wide": false,
+     "bg": "#E6F2EE",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "ロースは<ruby>脂<rt>あぶら</rt></ruby>があって、<br/>ヒレは<ruby>柔<rt>やわ</rt></ruby>らかくてさっぱり。",
+      "romaji": "Rōsu wa abura ga atte, hire wa yawarakakute sappari.",
+      "en": "Loin has more fat; fillet is tender and lighter.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><g stroke=\"#1A1A1A\" stroke-width=\"3\"><rect fill=\"#E8A33D\" height=\"46\" rx=\"14\" width=\"58\" x=\"6\" y=\"40\"></rect><rect fill=\"#F2C66D\" height=\"36\" rx=\"10\" width=\"58\" x=\"76\" y=\"46\"></rect></g><path d=\"M16 62 h38 M86 64 h38\" stroke=\"#FFF3D6\" stroke-linecap=\"round\" stroke-width=\"4\"></path><text fill=\"#1A1A1A\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" x=\"35\" y=\"110\">ロース</text><text fill=\"#1A1A1A\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" x=\"105\" y=\"110\">ヒレ</text></svg>"
+     }
+    }
+   ],
+   "phrases": [
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>英語<rt>えいご</rt></ruby>のメニューはありますか。",
+     "romaji": "Eigo no menyū wa arimasu ka?",
+     "en": "Do you have an English menu?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "これは<ruby>何<rt>なん</rt></ruby>ですか。",
+     "romaji": "Kore wa nan desu ka?",
+     "en": "What is this?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>量<rt>りょう</rt></ruby>は<ruby>多<rt>おお</rt></ruby>いですか。",
+     "romaji": "Ryō wa ōi desu ka?",
+     "en": "Is it a big portion?"
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "<ruby>黒豚<rt>くろぶた</rt></ruby>ロースも<ruby>人気<rt>にんき</rt></ruby>です。",
+     "romaji": "Kurobuta rōsu mo ninki desu.",
+     "en": "The black pork loin is popular too."
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "お<ruby>決<rt>き</rt></ruby>まりですか。",
+     "romaji": "O-kimari desu ka?",
+     "en": "Have you decided?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>考<rt>かんが</rt></ruby>えます。",
+     "romaji": "Mō sukoshi kangaemasu.",
+     "en": "I'll think a bit more."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "<ruby>注文<rt>ちゅうもん</rt></ruby>する",
+   "subtitle": "Ordering",
+   "location": "とんかつ<ruby>屋<rt>や</rt></ruby> · Tonkatsu shop",
+   "caption": "Scene 3 · Ordering",
+   "panels": [
+    {
+     "n": 1,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "<ruby>注文<rt>ちゅうもん</rt></ruby>いいですか。",
+      "romaji": "Chūmon ii desu ka?",
+      "en": "May I order?",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M50 108 v-44 q0 -8 8 -8 h24 q8 0 8 8 v44 Z\" fill=\"#F7DCC2\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><g fill=\"#F7DCC2\" stroke=\"#1A1A1A\" stroke-width=\"3\"><rect height=\"42\" rx=\"5\" width=\"10\" x=\"50\" y=\"24\"></rect><rect height=\"50\" rx=\"5\" width=\"10\" x=\"61\" y=\"16\"></rect><rect height=\"48\" rx=\"5\" width=\"10\" x=\"72\" y=\"18\"></rect><rect height=\"38\" rx=\"4.5\" width=\"9\" x=\"83\" y=\"28\"></rect></g><path d=\"M30 30 l-12 -8 M28 50 h-14 M110 30 l12 -8 M112 50 h14\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path></svg>"
+     }
+    },
+    {
+     "n": 2,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "はい、どうぞ。",
+      "romaji": "Hai, dōzo.",
+      "en": "Yes, go ahead.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#FFFFFF\" height=\"84\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"64\" x=\"38\" y=\"22\"></rect><path d=\"M50 44 h40 M50 58 h40 M50 72 h28\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path><rect fill=\"#E8A33D\" height=\"66\" rx=\"3\" stroke=\"#1A1A1A\" stroke-width=\"2.5\" transform=\"rotate(18 103 63)\" width=\"10\" x=\"98\" y=\"30\"></rect></svg>"
+     }
+    },
+    {
+     "n": 3,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "ロースかつ<ruby>定食<rt>ていしょく</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つと、<br/>ヒレかつ<ruby>定食<rt>ていしょく</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<br/>お<ruby>願<rt>ねが</rt></ruby>いします。",
+      "romaji": "Rōsu-katsu teishoku o hitotsu to, hire-katsu teishoku o hitotsu onegai shimasu.",
+      "en": "One loin cutlet set and one fillet cutlet set, please.",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#FFFDF7\" height=\"86\" rx=\"6\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"120\" x=\"10\" y=\"20\"></rect><path d=\"M70 20 v86\" stroke=\"#1A1A1A\" stroke-width=\"2\"></path><rect fill=\"#E8A33D\" height=\"26\" rx=\"4\" width=\"40\" x=\"20\" y=\"34\"></rect><path d=\"M20 72 h40 M20 84 h30 M80 36 h40 M80 50 h32 M80 64 h40 M80 78 h26\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path></svg>"
+     }
+    },
+    {
+     "n": 4,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "ご<ruby>飯<rt>はん</rt></ruby>は<ruby>普通<rt>ふつう</rt></ruby>と<ruby>大盛<rt>おおも</rt></ruby>り、<br/>どちらにしますか。",
+      "romaji": "Gohan wa futsū to ōmori, dochira ni shimasu ka?",
+      "en": "Regular or large serving of rice?",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M24 60 h92 q-4 44 -46 44 q-42 0 -46 -44 Z\" fill=\"#C8412E\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M28 60 q6 -36 42 -38 q36 2 42 38 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M60 36 l3 4 M76 40 l3 -4 M50 48 l3 3 M88 50 l3 -3\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"2\"></path></svg>"
+     }
+    },
+    {
+     "n": 5,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "<ruby>大盛<rt>おおも</rt></ruby>りでお<ruby>願<rt>ねが</rt></ruby>いします。",
+      "romaji": "Ōmori de onegai shimasu.",
+      "en": "Large, please.",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M24 60 h92 q-4 44 -46 44 q-42 0 -46 -44 Z\" fill=\"#C8412E\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M28 60 q6 -36 42 -38 q36 2 42 38 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M60 36 l3 4 M76 40 l3 -4 M50 48 l3 3 M88 50 l3 -3\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"2\"></path></svg>"
+     }
+    },
+    {
+     "n": 6,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "ご<ruby>飯<rt>はん</rt></ruby>とキャベツと<ruby>味噌汁<rt>みそしる</rt></ruby>は<br/>おかわり<ruby>自由<rt>じゆう</rt></ruby>です。",
+      "romaji": "Gohan to kyabetsu to misoshiru wa okawari jiyū desu.",
+      "en": "Rice, cabbage and miso soup have free refills.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><ellipse cx=\"70\" cy=\"92\" fill=\"#FFFFFF\" rx=\"56\" ry=\"16\" stroke=\"#1A1A1A\" stroke-width=\"3\"></ellipse><path d=\"M28 88 q-4 -40 42 -50 q46 10 42 50 Z\" fill=\"#B5DA7A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M44 80 q14 -26 26 -36 M70 84 q4 -24 0 -40 M96 80 q-12 -24 -26 -36\" fill=\"none\" stroke=\"#5E8C2E\" stroke-linecap=\"round\" stroke-width=\"2.5\"></path></svg>"
+     }
+    },
+    {
+     "n": 7,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "お<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>はいかがですか。",
+      "romaji": "O-nomimono wa ikaga desu ka?",
+      "en": "Would you like something to drink?",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#FFFFFF\" height=\"84\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"64\" x=\"38\" y=\"22\"></rect><path d=\"M50 44 h40 M50 58 h40 M50 72 h28\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path><rect fill=\"#E8A33D\" height=\"66\" rx=\"3\" stroke=\"#1A1A1A\" stroke-width=\"2.5\" transform=\"rotate(18 103 63)\" width=\"10\" x=\"98\" y=\"30\"></rect></svg>"
+     }
+    },
+    {
+     "n": 8,
+     "wide": false,
+     "bg": "#FDE8E0",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "お<ruby>水<rt>みず</rt></ruby>で<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+      "romaji": "O-mizu de daijōbu desu.",
+      "en": "Water is fine, thanks.",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M44 30 h52 l-8 76 h-36 Z\" fill=\"#DDEFFA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M48 52 h44\" stroke=\"#7FB8DE\" stroke-width=\"3\"></path><rect fill=\"#FFFFFF\" height=\"10\" rx=\"2\" stroke=\"#7FB8DE\" stroke-width=\"2\" width=\"10\" x=\"58\" y=\"62\"></rect></svg>"
+     }
+    }
+   ],
+   "phrases": [
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "これをください。",
+     "romaji": "Kore o kudasai.",
+     "en": "This one, please. (pointing at the menu)"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>同<rt>おな</rt></ruby>じものをお<ruby>願<rt>ねが</rt></ruby>いします。",
+     "romaji": "Onaji mono o onegai shimasu.",
+     "en": "The same, please."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "ご<ruby>飯<rt>はん</rt></ruby><ruby>少<rt>すく</rt></ruby>なめでお<ruby>願<rt>ねが</rt></ruby>いします。",
+     "romaji": "Gohan sukuname de onegai shimasu.",
+     "en": "Less rice, please."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>豚汁<rt>とんじる</rt></ruby>に<ruby>変<rt>か</rt></ruby>えられますか。",
+     "romaji": "Tonjiru ni kaeraremasu ka?",
+     "en": "Can I change it to pork miso soup?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "ビールを<ruby>一<rt>ひと</rt></ruby>つください。",
+     "romaji": "Bīru o hitotsu kudasai.",
+     "en": "One beer, please."
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "ご<ruby>注文<rt>ちゅうもん</rt></ruby>は<ruby>以上<rt>いじょう</rt></ruby>でよろしいですか。",
+     "romaji": "Go-chūmon wa ijō de yoroshii desu ka?",
+     "en": "Will that be all?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "はい、<ruby>以上<rt>いじょう</rt></ruby>です。",
+     "romaji": "Hai, ijō desu.",
+     "en": "Yes, that's all."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "<ruby>食事中<rt>しょくじちゅう</rt></ruby>",
+   "subtitle": "During the meal",
+   "location": "とんかつ<ruby>屋<rt>や</rt></ruby> · Tonkatsu shop",
+   "caption": "Scene 4 · During the meal",
+   "panels": [
+    {
+     "n": 1,
+     "wide": false,
+     "bg": "#E8EEF8",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "お<ruby>待<rt>ま</rt></ruby>たせしました。<br/>ごまをすって、<br/>ソースと<ruby>混<rt>ま</rt></ruby>ぜてください。",
+      "romaji": "Omatase shimashita. Goma o sutte, sōsu to mazete kudasai.",
+      "en": "Sorry for the wait. Grind the sesame and mix it with the sauce.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M18 56 h104 q-6 50 -52 50 q-46 0 -52 -50 Z\" fill=\"#8A5A3B\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M28 56 q42 -14 84 0\" fill=\"#F4E3B5\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path><rect fill=\"#D9B98A\" height=\"56\" rx=\"6\" stroke=\"#1A1A1A\" stroke-width=\"3\" transform=\"rotate(20 80 36)\" width=\"12\" x=\"74\" y=\"8\"></rect><circle cx=\"50\" cy=\"54\" fill=\"#1A1A1A\" r=\"2\"></circle><circle cx=\"60\" cy=\"52\" fill=\"#1A1A1A\" r=\"2\"></circle><circle cx=\"96\" cy=\"54\" fill=\"#1A1A1A\" r=\"2\"></circle></svg>"
+     }
+    },
+    {
+     "n": 2,
+     "wide": false,
+     "bg": "#E8EEF8",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "いただきます！",
+      "romaji": "Itadakimasu!",
+      "en": "Let's eat! (said before eating)",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><ellipse cx=\"70\" cy=\"86\" fill=\"#FFFFFF\" rx=\"64\" ry=\"22\" stroke=\"#1A1A1A\" stroke-width=\"3\"></ellipse><path d=\"M30 82 q-6 -24 18 -26 q10 -16 26 -4 q20 -10 22 14 q12 6 2 18 Z\" fill=\"#9BCB5B\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path><g stroke=\"#1A1A1A\" stroke-width=\"2.5\"><rect fill=\"#E8A33D\" height=\"30\" rx=\"4\" transform=\"rotate(-12 56 73)\" width=\"16\" x=\"48\" y=\"58\"></rect><rect fill=\"#E8A33D\" height=\"32\" rx=\"4\" transform=\"rotate(-6 72 72)\" width=\"16\" x=\"64\" y=\"56\"></rect><rect fill=\"#E8A33D\" height=\"32\" rx=\"4\" width=\"16\" x=\"80\" y=\"56\"></rect><rect fill=\"#E8A33D\" height=\"30\" rx=\"4\" transform=\"rotate(8 104 73)\" width=\"16\" x=\"96\" y=\"58\"></rect></g></svg>"
+     }
+    },
+    {
+     "n": 3,
+     "wide": false,
+     "bg": "#E8EEF8",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "すみません、キャベツの<br/>おかわりをお<ruby>願<rt>ねが</rt></ruby>いします。",
+      "romaji": "Sumimasen, kyabetsu no okawari o onegai shimasu.",
+      "en": "Excuse me, could I have more cabbage?",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><ellipse cx=\"70\" cy=\"92\" fill=\"#FFFFFF\" rx=\"56\" ry=\"16\" stroke=\"#1A1A1A\" stroke-width=\"3\"></ellipse><path d=\"M28 88 q-4 -40 42 -50 q46 10 42 50 Z\" fill=\"#B5DA7A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><path d=\"M44 80 q14 -26 26 -36 M70 84 q4 -24 0 -40 M96 80 q-12 -24 -26 -36\" fill=\"none\" stroke=\"#5E8C2E\" stroke-linecap=\"round\" stroke-width=\"2.5\"></path></svg>"
+     }
+    },
+    {
+     "n": 4,
+     "wide": false,
+     "bg": "#E8EEF8",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "これ、とても<ruby>美味<rt>おい</rt></ruby>しいです！",
+      "romaji": "Kore, totemo oishii desu!",
+      "en": "This is really delicious!",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n<path d=\"M150 60 l6 -14 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 Z\" fill=\"#F2B632\" stroke=\"#1A1A1A\" stroke-width=\"2\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><g stroke=\"#1A1A1A\" stroke-width=\"2.5\"><rect fill=\"#E8A33D\" height=\"40\" rx=\"5\" transform=\"rotate(-20 54 60)\" width=\"20\" x=\"44\" y=\"40\"></rect></g><path d=\"M66 20 l70 70 M76 14 l66 66\" stroke=\"#5A3A22\" stroke-linecap=\"round\" stroke-width=\"5\"></path><path d=\"M20 20 l8 8 M14 44 h12 M104 104 l8 8\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path></svg>"
+     }
+    }
+   ],
+   "phrases": [
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "ご<ruby>飯<rt>はん</rt></ruby>のおかわりをお<ruby>願<rt>ねが</rt></ruby>いします。",
+     "romaji": "Gohan no okawari o onegai shimasu.",
+     "en": "More rice, please."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "ソースをもう<ruby>少<rt>すこ</rt></ruby>しください。",
+     "romaji": "Sōsu o mō sukoshi kudasai.",
+     "en": "A little more sauce, please."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "からしはありますか。",
+     "romaji": "Karashi wa arimasu ka?",
+     "en": "Do you have mustard?"
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "おかわりはいかがですか。",
+     "romaji": "Okawari wa ikaga desu ka?",
+     "en": "Would you like a refill?"
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "もうお<ruby>腹<rt>なか</rt></ruby>いっぱいです。",
+     "romaji": "Mō onaka ippai desu.",
+     "en": "I'm already full."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "サクサクですね！",
+     "romaji": "Sakusaku desu ne!",
+     "en": "It's so crispy!"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "お<ruby>会計<rt>かいけい</rt></ruby>",
+   "subtitle": "Paying and leaving",
+   "location": "とんかつ<ruby>屋<rt>や</rt></ruby> · Tonkatsu shop",
+   "caption": "Scene 5 · Paying and leaving",
+   "panels": [
+    {
+     "n": 1,
+     "wide": false,
+     "bg": "#F1EADF",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "お<ruby>会計<rt>かいけい</rt></ruby>お<ruby>願<rt>ねが</rt></ruby>いします。",
+      "romaji": "O-kaikei onegai shimasu.",
+      "en": "The check, please.",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M50 108 v-44 q0 -8 8 -8 h24 q8 0 8 8 v44 Z\" fill=\"#F7DCC2\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path><g fill=\"#F7DCC2\" stroke=\"#1A1A1A\" stroke-width=\"3\"><rect height=\"42\" rx=\"5\" width=\"10\" x=\"50\" y=\"24\"></rect><rect height=\"50\" rx=\"5\" width=\"10\" x=\"61\" y=\"16\"></rect><rect height=\"48\" rx=\"5\" width=\"10\" x=\"72\" y=\"18\"></rect><rect height=\"38\" rx=\"4.5\" width=\"9\" x=\"83\" y=\"28\"></rect></g><path d=\"M30 30 l-12 -8 M28 50 h-14 M110 30 l12 -8 M112 50 h14\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path></svg>"
+     }
+    },
+    {
+     "n": 2,
+     "wide": false,
+     "bg": "#F1EADF",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "<ruby>合計<rt>ごうけい</rt></ruby>で<br/><ruby>二千八百円<rt>にせんはっぴゃくえん</rt></ruby>です。",
+      "romaji": "Gōkei de nisen happyaku en desu.",
+      "en": "That's 2,800 yen in total.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M40 16 h60 v90 l-10 -6 l-10 6 l-10 -6 l-10 6 l-10 -6 l-10 6 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"3\"></path><path d=\"M50 36 h40 M50 50 h40 M50 64 h24\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path><text fill=\"#1A1A1A\" font-size=\"15\" font-weight=\"900\" text-anchor=\"middle\" x=\"70\" y=\"88\">¥2,800</text></svg>"
+     }
+    },
+    {
+     "n": 3,
+     "wide": false,
+     "bg": "#F1EADF",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "カードで<ruby>払<rt>はら</rt></ruby>えますか。",
+      "romaji": "Kādo de haraemasu ka?",
+      "en": "Can I pay by card?",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#E8A33D\" height=\"70\" rx=\"10\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"112\" x=\"14\" y=\"36\"></rect><rect fill=\"#1A1A1A\" height=\"14\" width=\"112\" x=\"14\" y=\"50\"></rect><rect fill=\"#FFF3D6\" height=\"16\" rx=\"3\" stroke=\"#1A1A1A\" stroke-width=\"2\" width=\"22\" x=\"26\" y=\"76\"></rect></svg>"
+     }
+    },
+    {
+     "n": 4,
+     "wide": false,
+     "bg": "#F1EADF",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "はい、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+      "romaji": "Hai, daijōbu desu.",
+      "en": "Yes, that's fine.",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><rect fill=\"#E8A33D\" height=\"70\" rx=\"10\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"112\" x=\"14\" y=\"36\"></rect><rect fill=\"#1A1A1A\" height=\"14\" width=\"112\" x=\"14\" y=\"50\"></rect><rect fill=\"#FFF3D6\" height=\"16\" rx=\"3\" stroke=\"#1A1A1A\" stroke-width=\"2\" width=\"22\" x=\"26\" y=\"76\"></rect></svg>"
+     }
+    },
+    {
+     "n": 5,
+     "wide": false,
+     "bg": "#F1EADF",
+     "bubble": {
+      "speaker": "you",
+      "label": "あなた · You",
+      "ja": "ご<ruby>馳走<rt>ちそう</rt></ruby>さまでした。",
+      "romaji": "Gochisōsama deshita.",
+      "en": "Thank you for the meal. (said when leaving)",
+      "side": "left"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M20 70 q50 -50 100 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-dasharray=\"6 8\" stroke-linecap=\"round\" stroke-width=\"3\"></path><path d=\"M112 58 l10 12 l-15 4\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></path><path d=\"M50 98 q20 -10 40 0\" fill=\"none\" stroke=\"#C8412E\" stroke-linecap=\"round\" stroke-width=\"5\"></path><circle cx=\"70\" cy=\"46\" fill=\"#C8412E\" r=\"6\"></circle></svg>"
+     }
+    },
+    {
+     "n": 6,
+     "wide": false,
+     "bg": "#F1EADF",
+     "bubble": {
+      "speaker": "staff",
+      "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+      "ja": "ありがとうございました！",
+      "romaji": "Arigatō gozaimashita!",
+      "en": "Thank you very much!",
+      "side": "right"
+     },
+     "art": {
+      "left": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#2A8C82\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M82 154 Q100 172 118 154\" fill=\"none\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F7DCC2\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M48 104 Q42 44 100 42 Q160 44 152 104 Q146 80 128 70 Q110 84 70 80 Q56 88 48 104 Z\" fill=\"#7A4A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M75 98 q7 -8 14 0 M111 98 q7 -8 14 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M90 118 q10 9 20 0\" fill=\"none\" stroke=\"#1A1A1A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+      "right": "<svg aria-hidden=\"true\" viewBox=\"0 0 200 230\">\n<path d=\"M28 230 Q30 158 100 152 Q170 158 172 230 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<path d=\"M100 152 L84 178 L100 186 L116 178 Z\" fill=\"#E9E4DA\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<path d=\"M62 186 L138 186 L146 230 L54 230 Z\" fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></path>\n<circle cx=\"100\" cy=\"98\" fill=\"#F4D3B3\" r=\"50\" stroke=\"#1A1A1A\" stroke-width=\"3.5\"></circle>\n<path d=\"M52 92 Q54 46 100 46 Q146 46 148 92 Q130 70 100 72 Q70 70 52 92 Z\" fill=\"#2A2A2A\" stroke=\"#1A1A1A\" stroke-width=\"3\"></path>\n<rect fill=\"#FFFFFF\" height=\"15\" rx=\"4\" stroke=\"#1A1A1A\" stroke-width=\"3\" width=\"100\" x=\"50\" y=\"64\"></rect>\n<path d=\"M50 71 h100\" stroke=\"#C8412E\" stroke-width=\"3\"></path>\n<path d=\"M148 70 l16 -10 l-4 16 Z\" fill=\"#FFFFFF\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"></path>\n<circle cx=\"82\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"118\" cy=\"96\" fill=\"#1A1A1A\" r=\"4.5\"></circle><circle cx=\"70\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><circle cx=\"130\" cy=\"112\" fill=\"#F2A28C\" opacity=\".7\" r=\"7\"></circle><path d=\"M87 117 q13 17 26 0 Z\" fill=\"#B23A2E\" stroke=\"#1A1A1A\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path>\n</svg>",
+      "prop": "<svg aria-hidden=\"true\" viewBox=\"0 0 140 120\"><path d=\"M6 10 h128\" stroke=\"#5A3A22\" stroke-linecap=\"round\" stroke-width=\"6\"></path><g fill=\"#23395B\" stroke=\"#1A1A1A\" stroke-width=\"2.5\"><rect height=\"84\" width=\"38\" x=\"10\" y=\"14\"></rect><rect height=\"84\" width=\"38\" x=\"51\" y=\"14\"></rect><rect height=\"84\" width=\"38\" x=\"92\" y=\"14\"></rect></g><text fill=\"#FFFFFF\" font-size=\"24\" font-weight=\"900\" text-anchor=\"middle\" x=\"29\" y=\"66\">と</text><text fill=\"#FFFFFF\" font-size=\"24\" font-weight=\"900\" text-anchor=\"middle\" x=\"70\" y=\"66\">ん</text><text fill=\"#FFFFFF\" font-size=\"24\" font-weight=\"900\" text-anchor=\"middle\" x=\"111\" y=\"66\">か</text></svg>"
+     }
+    }
+   ],
+   "phrases": [
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>会計<rt>かいけい</rt></ruby>は<ruby>別々<rt>べつべつ</rt></ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。",
+     "romaji": "Kaikei wa betsubetsu de onegai shimasu.",
+     "en": "Separate checks, please."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>現金<rt>げんきん</rt></ruby>で<ruby>払<rt>はら</rt></ruby>います。",
+     "romaji": "Genkin de haraimasu.",
+     "en": "I'll pay in cash."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>交通系<rt>こうつうけい</rt></ruby>ICカードは<ruby>使<rt>つか</rt></ruby>えますか。",
+     "romaji": "Kōtsūkei IC kādo wa tsukaemasu ka?",
+     "en": "Can I use a transit IC card?"
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "すみません、<ruby>現金<rt>げんきん</rt></ruby>のみです。",
+     "romaji": "Sumimasen, genkin nomi desu.",
+     "en": "Sorry, cash only."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "レシートをください。",
+     "romaji": "Reshīto o kudasai.",
+     "en": "A receipt, please."
+    },
+    {
+     "speaker": "you",
+     "label": "あなた · You",
+     "ja": "<ruby>美味<rt>おい</rt></ruby>しかったです！",
+     "romaji": "Oishikatta desu!",
+     "en": "It was delicious!"
+    },
+    {
+     "speaker": "staff",
+     "label": "<ruby>店員<rt>てんいん</rt></ruby> · Staff",
+     "ja": "またお<ruby>越<rt>こ</rt></ruby>しくださいませ。",
+     "romaji": "Mata okoshi kudasaimase.",
+     "en": "Please come again."
+    }
+   ]
+  }
+ ]
+}
