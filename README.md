@@ -17,6 +17,12 @@ imported from a Claude Design canvas.
 - **Study toggles**: turn furigana, romaji or English off. Hidden lines get a
   "Show English" / "Show romaji" button, so you can test yourself one bubble
   at a time. Your settings are remembered in the browser.
+- **Sound**: every speech bubble and every "Other ways to say it" phrase has a
+  play button that reads the line in Japanese. **Play conversation** reads a
+  whole scene's bubbles in order, and **Slow speech** slows the voice down for
+  practice. It uses the browser's built-in Japanese voice and reads kanji by
+  their furigana, so 二人 is spoken as ふたり. If a device has no Japanese voice,
+  the page says so. Recorded audio can be added per line (see below).
 - ← / → keys change scenes, and the reader remembers the last scene you read
   in each comic.
 - No build step and no dependencies: plain HTML, CSS and JavaScript.
@@ -97,7 +103,8 @@ tonkatsu comic: a header, `.panel` elements with one `.bubble` each, and an
             "label": "店員 · Staff",
             "ja": "いらっしゃいませ！",
             "romaji": "Irasshaimase!",
-            "en": "Welcome!"
+            "en": "Welcome!",
+            "audio": "comics/konbini/audio/1-1.mp3"  // optional recording
           },
           "art": {                // inline SVG strings, all optional
             "left": "<svg viewBox=\"0 0 200 230\">…</svg>",
@@ -120,6 +127,10 @@ Library entry in `comics/index.json`:
 { "id": "konbini", "title": "At the Convenience Store", "titleJa": "コンビニで",
   "summary": "…", "level": "Beginner", "tags": ["shopping"], "scenes": 1, "panels": 1 }
 ```
+
+Lines with no `audio` file are read by the browser's text-to-speech. To use
+recordings, put the files in `comics/<id>/audio/` and give each line an
+`audio` path. Phrases accept `audio` too.
 
 Text fields may use only basic inline markup (`ruby`, `rt`, `br`, `b`, `em`).
 SVG art is filtered to plain drawing elements. Scripts, event handlers and

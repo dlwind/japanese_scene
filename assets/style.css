@@ -217,6 +217,23 @@ button.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); 
 .line-romaji { margin: 0; font-size: 16px; line-height: 1.35; font-style: italic; color: var(--ink-2); }
 .line-en { margin: 0; padding-top: 6px; border-top: 2px dashed var(--rule); font-size: 16px; line-height: 1.35; font-weight: 700; }
 
+/* sound */
+.line-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.play {
+  flex-shrink: 0; width: 44px; height: 44px; margin: -8px -8px -8px 0;
+  display: grid; place-items: center; border: 2px solid var(--ink); border-radius: 50%;
+  background: var(--paper-2); color: var(--ink); cursor: pointer;
+}
+.play svg { width: 20px; height: 20px; }
+.play:hover { background: var(--amber); }
+.phrase .play { width: 40px; height: 40px; margin: -6px -6px -6px 0; }
+.speaking { box-shadow: 0 0 0 5px var(--amber); }
+.speaking .play { background: var(--ink); color: var(--paper); }
+.scene-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: -4px; }
+.scene-tools .chip { min-height: 44px; }
+.voice-note { margin: 0; font-size: 14px; color: var(--ink-2); }
+.voice-note:empty { display: none; }
+
 /* study mode: hidden lines become tap-to-reveal */
 .reveal {
   display: none; align-self: flex-start; min-height: 32px; padding: 2px 12px;

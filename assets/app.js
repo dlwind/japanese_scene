@@ -68,6 +68,11 @@
     right: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>',
     grid: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/></svg>',
   };
+  Object.assign(ICON, {
+    speaker: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/></svg>',
+    play: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>',
+    stop: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1.5"/></svg>',
+  });
   const icon = (name) => { const t = document.createElement('template'); t.innerHTML = ICON[name]; return t.content.firstChild; };
 
   async function getJSON(url) {
@@ -82,6 +87,88 @@
   };
 
   const plain = (html) => { const f = safeText(html); f.querySelectorAll('rt, rp').forEach((n) => n.remove()); return f.textContent.replace(/\s+/g, ' ').trim(); };
+
+  // ---------- audio ----------
+  // Lines are read aloud by the browser's built-in Japanese voice. A line may
+  // instead carry "audio": "comics/<id>/audio/<file>.mp3" to play a recording.
+  const audio = {
+    rate: 1,
+    run: 0,          // bumped to cancel a running "play conversation"
+    current: null,   // { stop() } for the line now playing
+    voice() {
+      const ja = (window.speechSynthesis ? speechSynthesis.getVoices() : []).filter((v) => /^ja([-_]|$)/i.test(v.lang));
+      return ja.find((v) => /google|natural|premium|enhanced|kyoko|nanami|o-ren/i.test(v.name)) || ja[0] || null;
+    },
+    supported: 'speechSynthesis' in window,
+  };
+
+  // Read kanji by their furigana so the voice can't pick a wrong reading.
+  function reading(html) {
+    const f = safeText(html);
+    f.querySelectorAll('ruby').forEach((r) => {
+      const rt = [...r.querySelectorAll('rt')].map((n) => n.textContent).join('');
+      r.querySelectorAll('rp').forEach((n) => n.remove());
+      r.replaceWith(rt || r.textContent);
+    });
+    return f.textContent.replace(/\s+/g, ' ').trim();
+  }
+
+  function stopAudio() {
+    audio.run++;
+    if (audio.current) audio.current.stop();
+  }
+
+  function say(line, box) {
+    if (audio.current) audio.current.stop();
+    return new Promise((resolve) => {
+      let done = false;
+      const handle = {};
+      const finish = () => {
+        if (done) return;
+        done = true;
+        box?.classList.remove('speaking');
+        if (audio.current === handle) audio.current = null;
+        resolve();
+      };
+      handle.stop = finish;
+      audio.current = handle;
+      box?.classList.add('speaking');
+      if (line.audio && /^[\w./-]+$/.test(line.audio)) {
+        const a = new Audio(line.audio);
+        a.playbackRate = audio.rate;
+        a.onended = a.onerror = finish;
+        handle.stop = () => { a.pause(); finish(); };
+        a.play().catch(finish);
+      } else if (audio.supported) {
+        const u = new SpeechSynthesisUtterance(reading(line.ja));
+        u.lang = 'ja-JP';
+        const v = audio.voice();
+        if (v) u.voice = v;
+        u.rate = audio.rate;
+        u.onend = u.onerror = finish;
+        // Some browsers never fire onend; don't let a conversation stall.
+        const watchdog = setTimeout(() => { speechSynthesis.cancel(); finish(); }, 3000 + (u.text.length * 350) / audio.rate);
+        handle.stop = () => { clearTimeout(watchdog); speechSynthesis.cancel(); finish(); };
+        u.onend = u.onerror = () => { clearTimeout(watchdog); finish(); };
+        speechSynthesis.cancel();
+        speechSynthesis.speak(u);
+      } else {
+        finish();
+      }
+    });
+  }
+
+  function playButton(line) {
+    return h('button', {
+      type: 'button', class: 'play', title: 'Listen', 'aria-label': `Listen: ${line.romaji || plain(line.ja)}`,
+      onclick: (e) => {
+        const box = e.currentTarget.closest('.bubble, .phrase');
+        const wasPlaying = box.classList.contains('speaking');
+        stopAudio();
+        if (!wasPlaying) say(line, box);
+      },
+    }, icon('speaker'));
+  }
 
   function showError(root, msg) {
     root.replaceChildren(h('div', { class: 'error wrap', role: 'alert' },
@@ -98,7 +185,7 @@
     ];
   }
 
-  function lineBlock(line, { headingLevel } = {}) {
+  function lineBlock(line) {
     const romaji = h('p', { class: 'line-romaji' }, line.romaji);
     const en = h('p', { class: 'line-en' }, line.en);
     const reveal = (cls, target, label) => h('button', {
@@ -106,7 +193,9 @@
       onclick: (e) => { target.classList.add('shown'); e.currentTarget.classList.add('used'); },
     }, label);
     return [
-      h('span', { class: `speaker ${line.speaker || 'other'}`, html: line.label }),
+      h('div', { class: 'line-head' },
+        h('span', { class: `speaker ${line.speaker || 'other'}`, html: line.label }),
+        audio.supported || line.audio ? playButton(line) : null),
       h('p', { class: 'line-ja', lang: 'ja', html: line.ja }),
       reveal('romaji', romaji, 'Show romaji'), romaji,
       reveal('en', en, 'Show English'), en,
@@ -190,7 +279,8 @@
     catch { return showError(root, `Comic “${id}” was not found.`); }
 
     const scenes = comic.scenes || [];
-    const prefs = store.get('js-prefs', { furigana: true, romaji: true, en: true });
+    const prefs = Object.assign({ furigana: true, romaji: true, en: true, slow: false }, store.get('js-prefs', {}));
+    audio.rate = prefs.slow ? 0.7 : 1;
     const progressKey = `js-progress:${id}`;
 
     // site bar extras: title + display toggles
@@ -228,11 +318,62 @@
       const badgeSide = p.bubble.side === 'left' ? 'right' : 'left';
       return h('figure', { class: `panel${p.wide ? ' wide' : ''}`, style: { backgroundColor: p.bg || '#FFF1D6', margin: 0 } },
         h('span', { class: `panel-no ${badgeSide}`, 'aria-label': `Panel ${p.n}` }, String(p.n)),
-        h('figcaption', { class: `bubble ${p.bubble.side}` }, lineBlock(p.bubble)),
+        Object.assign(h('figcaption', { class: `bubble ${p.bubble.side}` }, lineBlock(p.bubble)), { _line: p.bubble }),
         artLayer(p.art || {}));
     }
 
+    let playBtn = null;
+    function setPlaying(on) {
+      if (!playBtn) return;
+      playBtn.replaceChildren(icon(on ? 'stop' : 'play'), on ? 'Stop' : 'Play conversation');
+      playBtn.setAttribute('aria-pressed', String(on));
+    }
+    async function playConversation() {
+      stopAudio();
+      const run = audio.run;
+      setPlaying(true);
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      for (const box of root.querySelectorAll('.panel .bubble')) {
+        box.scrollIntoView({ block: 'center', behavior: reduce ? 'auto' : 'smooth' });
+        await say(box._line, box);
+        if (run !== audio.run) return;
+        await new Promise((r) => setTimeout(r, 450));
+        if (run !== audio.run) return;
+      }
+      setPlaying(false);
+    }
+
+    function voiceNote() {
+      if (!audio.supported) return 'Sound is not available in this browser.';
+      const all = speechSynthesis.getVoices();
+      if (all.length && !audio.voice()) return 'No Japanese voice found on this device. Add one in your system’s speech or language settings.';
+      return '';
+    }
+
+    function sceneTools() {
+      const hasAudio = audio.supported || scenes[sceneIndex()].panels.some((p) => p.bubble.audio);
+      if (!hasAudio) return null;
+      playBtn = h('button', {
+        type: 'button', class: 'btn primary', 'aria-pressed': 'false',
+        onclick: () => (playBtn.getAttribute('aria-pressed') === 'true' ? (stopAudio(), setPlaying(false)) : playConversation()),
+      });
+      setPlaying(false);
+      const note = h('p', { class: 'voice-note', role: 'status' }, voiceNote());
+      if (audio.supported) speechSynthesis.onvoiceschanged = () => { note.textContent = voiceNote(); };
+      return h('div', { class: 'scene-tools' },
+        playBtn,
+        h('button', {
+          type: 'button', class: 'chip', 'aria-pressed': String(prefs.slow),
+          onclick: (e) => {
+            prefs.slow = !prefs.slow; audio.rate = prefs.slow ? 0.7 : 1;
+            e.currentTarget.setAttribute('aria-pressed', String(prefs.slow)); store.set('js-prefs', prefs);
+          },
+        }, 'Slow speech'),
+        note);
+    }
+
     function render() {
+      stopAudio();
       const i = sceneIndex();
       const s = scenes[i];
       const prev = scenes[i - 1];
@@ -257,6 +398,7 @@
               h('h1', { id: 'scene-title', tabindex: '-1', lang: 'ja', html: s.title }),
               h('p', {}, s.subtitle)),
             s.location ? h('p', { class: 'location', lang: 'ja', html: s.location }) : null),
+          sceneTools(),
           h('div', { class: 'scene-body' },
             h('div', { class: 'panels' }, s.panels.map(panelEl)),
             s.phrases?.length ? h('aside', { class: 'phrases', 'aria-labelledby': 'phrases-title' },
